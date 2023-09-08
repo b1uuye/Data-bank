@@ -1,0 +1,3 @@
+#!/bin/sh
+
+watchmedo auto-restart --patterns="*.py;*.txt" --recursive --signal SIGTERM python main.py 
